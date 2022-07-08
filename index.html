@@ -1,0 +1,40 @@
+
+ <Html>  
+ <head>   
+<style>body {  font-family: calibri, serif;}</style>
+ <title> Tax Settlement Portal </title>  
+ <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
+ <script src="index.js"></script>
+ </head>  
+ <body> 
+<h1><center>Hearing Session</h1>
+
+ <br><br><br> 
+ <table style='width:85%' align='center' cellpadding='0' cellspacing='3' id="tableData">
+
+<tr height='30px'>
+    <td colspan=2 style='width:18%; vertical-align:middle;' bgcolor='#D9D9D9'><center><label> Dispute Items </label></td>
+    <td colspan=2 style='width:18%; vertical-align:middle;' bgcolor='#D9D9D9'><center><label> Hearing Session Requirements </label></td>
+    <td style='width:18%; vertical-align:middle;' bgcolor='#D9D9D9'><center><label> Number of Days </label></td>
+  </tr>
+  <section class="task-list">
+      <div id="tasks">
+           <div class="task">
+             <div class="content">
+              <tr height='30px'>
+ <td colspan=1 align='center'>1) <input type='text' align='center' size='70%' style='width:93%; height:25px; text-align:center;' name='Dispute_Items1' value=''/> </td>
+  <td ><button id="a1" class="add" onclick="addRow('tableData')">Add</button></td>
+ <td colspan=2 align='center'>1) <input type='text' align='center' size='86%' style='width:93%; height:25px; text-align:center;' name='Hearing_Session_Requirement1' value='' /> </td>
+ <td rowspan=10 style='width:18%; height:100%;' align='center'><center> <textarea cols='50' rows='21' maxlength='10' align='center' style='width:100%; height:100%; text-align:center;' name='Number_Of_Days'></textarea></td>
+  </tr>  
+             </div>
+           </div>
+      </div>
+
+<!-- <tr height='10px'></tr>
+<tr height='30px'>
+ <td colspan='7'  align='center' ><br><br><input type='submit' value='   Update   '/></td>
+</tr> -->
+ </form></table> 
+ </body>  
+ </html>  
